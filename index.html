@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ASiakotos</title>
+    <meta name="description" content="Architectural Visualisations & Photography">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content-wrapper">
+        <div class="sidebar1">
+            <div class="sb1-box1">
+                <div class="logo">
+                    <a href=""><img src="img/logo.png" alt="artist's logo"/></a>
+                </div>
+            </div>
+            <div class="sb1-box2">
+                <div class="categories-wrapper">
+                    <ul id="galleryCategories" class="categories">
+                      <li id="gallery1" data-gallery="gallery1">architecture</li>
+                      <li id="gallery2" data-gallery="gallery2">matte-paint</li>
+                      <li id="gallery4" data-gallery="gallery4">photography</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sb1-box3">
+                <div class="cv-circle"><a href="cv.html"><span class="cv-circle-txt">about<br>me</span></a></div>
+            </div>
+        </div>
+        <div class="mainbar">
+            <div id="galleryImages" style="background-image:url(#)" class="gallery-wrapper"></div>
+        </div>
+        <div class="sidebar2">
+          <div class="sb2-box1">
+            <span class="general-info">Copyright © 2019 Tasos Siakotos - Created by <a href="http://www.xmoraitis.com"><em>xm</em></a></span>
+          </div>
+          <div class="sb2-box2">
+                <div class="arrow-nav-wrapper">
+                    <div id="arrowUp" class="up-arrow">
+                        <img src="img/arrow-long.svg">
+                    </div>
+                    <span class="img-number"><span id="currentImgNumber">1</span>/<span id="totalImgNumber">10</span></span>
+                    <div id="arrowDown" class="down-arrow">
+                        <img src="img/arrow-long.svg">
+                    </div>
+                </div>
+          </div>
+          <div class="sb2-box3">
+              <div id="contactMeBtn" class="contact-me-wrapper">
+                  <span class="contact-me-txt">work<br>together></span>
+                  <div class="contact-me-line"></div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div id="contactMePage" class="tracing-paper contact-me-page-wrapper">
+        <div class="contact-me-page-top">
+            <div id="closeContactMeBtn" class="close-contact-me-btn-wrapper">
+                    <div class="burger-top"></div>
+                    <div class="burger-bottom"></div>
+            </div>
+        </div>
+        <div class="contact-me-page-main">
+            <h2 class="contact-me-page-title">get in touch</h2>
+            <span class="contact-me-page-txt">gtasossiakotos@gmail.com</span>
+            <a href = "mailto: gtasossiakotos@gmail.com" class="email-btn">send me an email</a>
+        </div>
+        <div class="contact-me-page-bottom">
+            <span class="contact-me-page-bottom-txt">tasos siakotos, architectural visualisation</span>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

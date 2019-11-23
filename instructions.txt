@@ -1,0 +1,14 @@
+---upload content---
+
+1) open terminal
+2) go to directory: d:\xenmor\Documents\project_tasossiakotos
+3) surge
+4) login as dora-dora
+5) upload!
+
+---surge setup---
+
+1) login to gandi.net
+2) got to domain > tasossiakotos.com
+3) DNS settings: change @: 45.55.110.124
+		    	www: na-west1.surge.sh
